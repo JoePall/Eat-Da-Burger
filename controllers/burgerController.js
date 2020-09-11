@@ -16,6 +16,7 @@ router.get("/", (req, res) => {
 
 
 router.post("/api/burgers", (req, res) => {
+    if (!req.body.name) return res.end();
     let objectData = {
         "name": req.body.name,
         "devoured": 0
