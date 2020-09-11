@@ -17,8 +17,8 @@ const orm = {
 
         console.log(query.sql);
     },
-    getAll: (tableName, completed) => {
-        connection.query("SELECT * FROM ?? ORDER BY devoured DESC;", [tableName], completed);
+    get: (tableName, completed) => {
+        connection.query("SELECT * FROM ??;", [tableName], completed);
     },
     update: (tableName, object, completed) => {
         let queryString = `UPDATE ??

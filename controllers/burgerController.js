@@ -4,12 +4,16 @@ var burger = require("../models/burger.js");
 
 router.get("/", (req, res) => {
     burger.all((err, data) => {
-        console.log(data);
+        let burgersOrderedByDevoured = data.sort((a, b) => b.devoured - a.devoured);
+        let burgersOrderedByName = [...data].sort((a, b) => (a.name.toUpperCase() < b.name.toUpperCase()) ? -1 : 0);
+        
         res.render("index", {
-            burgers: data
+            burgersOrderedByName: burgersOrderedByName,
+            burgersOrderedByDevoured: burgersOrderedByDevoured
         });
     });
 });
+
 
 router.post("/api/burgers", (req, res) => {
     let objectData = {
