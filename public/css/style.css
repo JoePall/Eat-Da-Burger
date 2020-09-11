@@ -1,0 +1,16 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.bg-blue-1 { 
+    background-color: rgb(167, 216, 213); 
+}
+
+.bg-blue-2 { 
+    background-color: rgb(134, 198, 197); 
+}
+
+.bg-blue-3 { 
+    background-color: rgb(74, 145, 136); 
+}

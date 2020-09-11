@@ -1,50 +1,70 @@
-<div class="row">
-    <div class="col p-5">
-        <h3>All the Burgers!</h3>
-        <ul class="list-group">
-            {{#each burgers}}
-                {{> burgers/burger-item tried=false displayDevourButton=true}}
-            {{/each}}
-        </ul>
+<div class="row justify-content-md-center bg-blue-2">
+    <div class="col-4 p-5">
+        <h1>BURGER TOWN!</h1>
     </div>
-    
-    <div class="col p-5">
-        <h3>Undiscovered Burgers!</h3>
-        <ul class="list-group">
-            {{#each burgers}}
-                {{#unless devoured}}
-                    {{> burgers/burger-item tried=false displayDevourButton=false}}
-                {{/unless}}
-            {{/each}}
-        </ul>
-    </div>
-
-    <div class="col p-5">
-        <h3>Burgers Devoured!</h3>
-        <ul class="list-group">
-            {{#each burgers}}
-                {{#if devoured}}
-                    {{> burgers/burger-item tried=true displayDevourButton=false}}
-                {{/if}}
-            {{/each}}
-        </ul>
+</div>
+<div class="row justify-content-md-center bg-blue-1 p-5">
+    <div class="col-4">
+        <img src="./assets/burger.svg" alt="A burger">
     </div>
 </div>
 
-<div class="row">
-    <div class="card col-4 mx-auto p-5 bg-light">
+<div class="row bg-blue-1 p-5">
+    <div class="card col-8 mx-auto p-2 bg-blue-3">
         <form class="create-burger">
             <div class="input-group input-group-lg">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-lg">Burger:</span>
+                    <span class="input-group-text" id="inputGroup-sizing-lg">BURGER WISH LIST:</span>
                 </div>
-                <input id="name" name="name" type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                <input id="name" name="name" type="text" class="form-control" aria-label="Large"
+                    aria-describedby="inputGroup-sizing-sm">
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Add</button>
+                    <button class="btn bg-blue-2" type="submit">ADD</button>
                 </div>
             </div>
         </form>
     </div>
 </div>
+
+<div class="row bg-blue-3">
+    <div class="col-md-12 col-lg-4 p-5">
+        <div class="card">
+            <h3 class="p-3">All the Burgers!</h3>
+            <ul class="list-group">
+                {{#each burgers}}
+                {{> burgers/burger-item tried=false displayDevourButton=true}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-4 p-5">
+        <div class="card">
+            <h3 class="p-3">Undiscovered Burgers!</h3>
+            <ul class="list-group">
+                {{#each burgers}}
+                {{#unless devoured}}
+                {{> burgers/burger-item tried=false displayDevourButton=false}}
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-lg-4 p-5">
+        <div class="card">
+            <h3 class="p-3">Burgers Devoured!</h3>
+            <ul class="list-group">
+                {{#each burgers}}
+                {{#if devoured}}
+                {{> burgers/burger-item tried=true displayDevourButton=false}}
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script src="/js/burger.js"></script>
