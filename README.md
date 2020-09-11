@@ -1,3 +1,32 @@
-# Eat-Da-Burger
+[![Enhancements](https://img.shields.io/github/issues/JoePall/burger/enhancement.svg)](https://github.com/JoePall/burger/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/JoePall/burger/bug.svg)](https://github.com/JoePall/burger/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+![License](https://img.shields.io/badge/License-MIT%20License-green?style=flat-square.svg)
 
-A simple application with a database.
+<h1>BURGER<b>TOWN</b></h1>
+
+## Table of contents
+
+<!--ts-->
+* [Table of contents](#table-of-contents)
+* [Description](#description)
+* [Questions](#questions)
+* [License](#license)
+<!--te-->
+
+## Description
+
+<p>Have you ever thought up a new kind of burger and strongly desired to sink your teeth into it's savory goodness? Checkout the wish list for burgers!</p>
+
+[Checkout the website](https://salty-eyrie-05927.herokuapp.com/)
+
+[Repository](https://github.com/JoePall/burger)
+
+## Questions
+
+<p>Contact me at <a href="mailto:josiahpowell@outlook.com">josiahpowell@outlook.com</a> or checkout my GitHub Profile at <a href="https://github.com/JoePall">JoePall</a>.</p>
+
+[Visit my Portfolio website here](https://salty-eyrie-05927.herokuapp.com/) 
+
+## License
+
+<p>MIT License</p>
