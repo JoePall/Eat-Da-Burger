@@ -2,7 +2,7 @@
     {{name}}
 
     {{#if tried}}
-    <span class="badge badge-primary badge-pill">
+    <span class="badge bg-blue-1 badge-pill">
         <span>
             {{devoured}}
         </span>
@@ -10,6 +10,7 @@
     {{/if}}
 
     {{#if displayDevourButton}}
-        <button data-id="{{id}}" data-devoured="{{devoured}}" type="submit" class="devour btn btn-primary m-0 py-0">{{#if devoured}}EAT ANOTHER!{{else}}EAT IT!{{/if}}</button>
+    <button data-id="{{id}}" data-devoured="{{devoured}}" type="submit"
+        class="devour btn bg-blue-1 m-0 py-0">{{#if devoured}}EAT ANOTHER!{{else}}EAT IT!{{/if}}</button>
     {{/if}}
 </li>
