@@ -17,7 +17,7 @@
 
 <p>Have you ever thought up a new kind of burger and strongly desired to sink your teeth into it's savory goodness? Checkout the wish list for burgers!</p>
 
-[Checkout the website](https://salty-eyrie-05927.herokuapp.com/)
+[Checkout the website](https://fierce-wave-65626.herokuapp.com/)
 
 [Repository](https://github.com/JoePall/burger)
 
