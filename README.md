@@ -15,14 +15,14 @@
 
 ## Description
 
-![Screenshot of Burger Town App (Mobile)](https://fierce-wave-65626.herokuapp.com/assets/screenshot1.png)
-![Screenshot of Burger Town App (Desktop)](https://fierce-wave-65626.herokuapp.com/assets/screenshot2.png)
+![Screenshot of Burger Town App (Mobile)](https://burger-town-app.herokuapp.com/assets/screenshot1.png)
+![Screenshot of Burger Town App (Desktop)](https://burger-town-app.herokuapp.com/assets/screenshot2.png)
 
 <p>Have you ever thought up a new kind of burger and strongly desired to sink your teeth into it's savory goodness? Checkout the wish list for burgers!</p>
 
-[Checkout the website](https://fierce-wave-65626.herokuapp.com/)
+[Checkout the website](https://burger-town-app.herokuapp.com/)
 
-[Repository](https://github.com/JoePall/burger)
+[Repository](https://github.com/JoePall/burgertown)
 
 ## Questions
 
