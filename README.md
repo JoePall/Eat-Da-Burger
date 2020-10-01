@@ -1,5 +1,5 @@
-[![Enhancements](https://img.shields.io/github/issues/JoePall/burger/enhancement.svg)](https://github.com/JoePall/burger/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement+sort%3Areactions-%2B1-desc)
-[![Bugs](https://img.shields.io/github/issues/JoePall/burger/bug.svg)](https://github.com/JoePall/burger/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Enhancements](https://img.shields.io/github/issues/JoePall/burgertown/enhancement.svg)](https://github.com/JoePall/burgertown/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/JoePall/burgertown/bug.svg)](https://github.com/JoePall/burgertown/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 ![License](https://img.shields.io/badge/License-MIT%20License-green?style=flat-square.svg)
 
 <h1>BURGER<b>TOWN</b></h1>
